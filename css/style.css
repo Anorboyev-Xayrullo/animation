@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    font-family: 'Public Sans', sans-serif;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.navbar{
+    margin-top: 50px;
+}
+
+.flex_fox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar_list{
+    list-style: none;
+    width: 350px;
+}
+
+.navbar_list a:hover{
+    color: aqua;
+    opacity: 0.4s;
+}
+
+.navbar_list a{
+    text-decoration: none;
+}
+
+
+
+
+/* Header qismi */
+
+.header img{
+    width: 50%;
+}
+
+.header div{
+    padding-left: 100px;
+}
+
+
+.header h2{
+    font-weight: 700;
+font-size: 40px;
+line-height: 42px;
+letter-spacing: -0.357143px;
+color: #33323D;
+}
+
+.header p{
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.header{
+    margin-top: 80px;
+}
+
+.header button{
+    border: none;
+    margin-top: 25px;
+    width: 175px;
+    height: 50px;
+    font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #33323D;
+}
+
+.header span{
+    width: 350px;
+    height: 1px;
+    color: black;
+}
